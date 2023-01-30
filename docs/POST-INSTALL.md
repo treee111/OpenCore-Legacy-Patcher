@@ -1,8 +1,11 @@
 # Post-Installation
 
-* [Booting without USB drive](#booting-without-usb-drive)
-* [Booting seamlessly without Boot Picker](#booting-seamlessly-without-boot-picker)
-* [Applying Post Install Volume Patches](#applying-post-install-volume-patches)
+- [Post-Installation](#post-installation)
+  - [Booting without USB drive](#booting-without-usb-drive)
+  - [Booting seamlessly without Boot Picker](#booting-seamlessly-without-boot-picker)
+  - [Enabling SIP](#enabling-sip)
+  - [Applying Post Install Volume Patches](#applying-post-install-volume-patches)
+    - [Running Post Install patches manually](#running-post-install-patches-manually)
 
 ## Booting without USB drive
 
@@ -58,11 +61,6 @@ OCLP will automatically root patch your system during a first time install **if 
 
 Users can also see whether applicable patches have been installed, date and version the system was root patched with in the Post-Install Menu.
 
-<<<<<<< HEAD
-| Automatic install prompt | Status |
-| :--- | :--- |
-| ![](../images/OCLP-GUI-root-patch-update.png) | ![](../images/OCLP-GUI-Root-Patch-Status.png)  |
-=======
 In OCLP v0.4.5 a new indicator was added to help users to see if, when and on what version the system was root patched.
 
 In OCLP v0.5.0 the "Available patches" section shows if all available patches are already installed. If there are patches to install, this will still be shown.
@@ -70,7 +68,6 @@ In OCLP v0.5.0 the "Available patches" section shows if all available patches ar
 | Automatic install prompt in 0.4.4+ | Last patched status in 0.4.5+ | Installed patches in 0.5.0+ |
 | :--- | :--- | :--- |
 | ![](../images/OCLP-GUI-root-patch-update.png) | ![](../images/OCLP-GUI-Root-Patch-Status.png) | ![](../images/OCLP-GUI-Root-Patch-Already-Installed.png) |
->>>>>>> 9aed0fa5 (document new functionality to show installed patches from OCLP v0.5.0 on)
 
 
 
